@@ -1,0 +1,36 @@
+.back_canvas{
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #222;
+  .container{
+    .home_btn{
+      margin-top: 0px;
+    }
+    .regular_main{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: 100vh;
+      background-color: #222;
+
+      .regular_login_holder{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: white;
+        border: none;
+        padding: 30px;
+        border-radius: 20px;
+        .regular_login_title{
+          text-transform: capitalize;
+        }
+        form{
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}

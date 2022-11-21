@@ -1,0 +1,42 @@
+.back_canvas{
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #222;
+  .container{
+    .home_btn{
+      margin-top: 0px;
+    }
+    .signin_main{
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      min-width: 100%;
+
+      .signin_login_holder{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        background: white;
+        padding: 30px;
+        border-radius: 20px;
+
+        .signin_title{
+          text-transform: capitalize;
+        }
+        .signin_btn{
+          margin: 10px 0px;
+        }
+        Button{
+          .in_button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
